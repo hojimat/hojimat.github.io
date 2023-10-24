@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="55.896545mm"
+   height="55.516525mm"
+   viewBox="0 0 55.896545 55.516525"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07, custom)"
+   sodipodi:docname="payoffs.svg"
+   inkscape:export-filename="/home/ravshan/Documents/project/ravshansk.github.io/assets/img/simulation/payoffs.png"
+   inkscape:export-xdpi="454.41"
+   inkscape:export-ydpi="454.41">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="64.742658"
+     inkscape:cy="141.68918"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-83.778552,-153.07108)">
+    <text
+       xml:space="preserve"
+       style="font-size:10.1385px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;stroke-width:0.135783"
+       x="101.23688"
+       y="160.59575"
+       id="text835"><tspan
+         sodipodi:role="line"
+         id="tspan833"
+         x="101.23688"
+         y="160.59575"
+         style="stroke-width:0.135783">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.1385px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;stroke-width:0.135783"
+       x="123.5333"
+       y="160.59575"
+       id="text839"><tspan
+         sodipodi:role="line"
+         id="tspan837"
+         x="123.5333"
+         y="160.59575"
+         style="stroke-width:0.135783">N</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:0.17;stroke:#100000;stroke-width:0.465"
+       id="rect841"
+       width="22.897905"
+       height="22.897905"
+       x="93.64679"
+       y="162.5593" />
+    <rect
+       style="fill:none;fill-opacity:0.17;stroke:#100000;stroke-width:0.465"
+       id="rect841-3"
+       width="22.897905"
+       height="22.897905"
+       x="93.64679"
+       y="185.4572" />
+    <rect
+       style="fill:none;fill-opacity:0.17;stroke:#100000;stroke-width:0.465"
+       id="rect841-6"
+       width="22.897905"
+       height="22.897905"
+       x="116.54469"
+       y="185.4572" />
+    <rect
+       style="fill:none;fill-opacity:0.17;stroke:#100000;stroke-width:0.465"
+       id="rect841-7"
+       width="22.897905"
+       height="22.897905"
+       x="116.54469"
+       y="162.5593" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.1385px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;stroke-width:0.135783"
+       x="83.884987"
+       y="178.9124"
+       id="text835-5"><tspan
+         sodipodi:role="line"
+         id="tspan833-3"
+         x="83.884987"
+         y="178.9124"
+         style="stroke-width:0.135783">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.1385px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;stroke-width:0.135783"
+       x="83.283508"
+       y="200.52988"
+       id="text839-5"><tspan
+         sodipodi:role="line"
+         id="tspan837-6"
+         x="83.283508"
+         y="200.52988"
+         style="stroke-width:0.135783">N</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.74282px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;stroke-width:0.103698"
+       x="95.918152"
+       y="176.3466"
+       id="text835-2"><tspan
+         sodipodi:role="line"
+         id="tspan833-9"
+         x="95.918152"
+         y="176.3466"
+         style="stroke-width:0.103698">(1,1)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.74282px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;stroke-width:0.103698"
+       x="118.81606"
+       y="176.34659"
+       id="text835-2-1"><tspan
+         sodipodi:role="line"
+         id="tspan833-9-2"
+         x="118.81606"
+         y="176.34659"
+         style="stroke-width:0.103698">(5,0)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.74282px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;stroke-width:0.103698"
+       x="95.918159"
+       y="199.24449"
+       id="text835-2-7"><tspan
+         sodipodi:role="line"
+         id="tspan833-9-0"
+         x="95.918159"
+         y="199.24449"
+         style="stroke-width:0.103698">(0,5)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.74282px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;stroke-width:0.103698"
+       x="118.81606"
+       y="199.24449"
+       id="text835-2-9"><tspan
+         sodipodi:role="line"
+         id="tspan833-9-3"
+         x="118.81606"
+         y="199.24449"
+         style="stroke-width:0.103698">(3,3)</tspan></text>
+  </g>
+</svg>
