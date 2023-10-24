@@ -12,7 +12,7 @@ permalink: /
             <span class="text-primary">Hojimatov</span>
         </h1>
         <div class="subheading mb-5">
-            9020 · Klagenfurt, Austria · 
+            Bishkek, Kyrgyzstan
             <a href="mailto:ravshan.personal@gmail.com">ravshan.personal@gmail.com</a>
         </div>
         <p class="lead mb-5">My name is Ravshanbek Khodzhimatov and I am an economist. I am currently developing computer simulations of economies using agent-based approach. My research interests are complexity (agent interactions and emergent behavior), statistical learning, and numeric methods.</p>
@@ -33,9 +33,9 @@ permalink: /
         <h2 class="mb-5">Experience</h2>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
-                <h3 class="mb-0">Software Engineer</h3>
+                <h3 class="mb-0">Senior Software Engineer</h3>
                 <div class="subheading mb-3">Entwicklerburg LLC</div>
-                <p>Description here.</p>
+                <p>Took part in developing automated driver assistance software in C++. Led multiple web-development projects in Python and Go. Participated in creating architecture of projects and ensured high code quality standards. Led the automation efforts of our DevOps engineers --- wrote CI/CD scripts, added cross-platform support via CMake and Clang. Helped to set up the computer vision projects for real-time object detection.</p>
             </div>
             <div class="flex-shrink-0"><span class="text-primary">Dec 2022 - present</span></div>
         </div>
