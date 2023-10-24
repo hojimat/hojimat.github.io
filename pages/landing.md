@@ -12,7 +12,7 @@ permalink: /
             <span class="text-primary">Hojimatov</span>
         </h1>
         <div class="subheading mb-5">
-            Bishkek, Kyrgyzstan
+            Bishkek, Kyrgyzstan · 
             <a href="mailto:ravshan.personal@gmail.com">ravshan.personal@gmail.com</a>
         </div>
         <p class="lead mb-5">My name is Ravshanbek Khodzhimatov and I am an economist. I am currently developing computer simulations of economies using agent-based approach. My research interests are complexity (agent interactions and emergent behavior), statistical learning, and numeric methods.</p>
@@ -96,11 +96,14 @@ permalink: /
         <ul class="list-inline dev-icons">
             <li class="list-inline-item"><i class="fab fa-python"></i></li>
             <li class="list-inline-item"><i class="fab fa-r-project"></i></li>
+            <li class="list-inline-item"><i class="fa-brands fa-golang"></i></li>
+            <li class="list-inline-item"><b>C++</b></li>
             <li class="list-inline-item"><i class="fas fa-terminal"></i></li>
             <li class="list-inline-item"><i class="fab fa-docker"></i></li>
             <li class="list-inline-item"><i class="fab fa-html5"></i></li>
             <li class="list-inline-item"><i class="fab fa-github"></i></li>
         </ul>
+<!--
         <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
             <li>
@@ -115,11 +118,8 @@ permalink: /
                 <span class="fa-li"><i class="fas fa-check"></i></span>
                 FOSS tools development
             </li>
-            <li>
-                <span class="fa-li"><i class="fas fa-check"></i></span>
-                btw, I use Arch
-            </li>
         </ul>
+-->
     </div>
 </section>
 <hr class="m-0" />
