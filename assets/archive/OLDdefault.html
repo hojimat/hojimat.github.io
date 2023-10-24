@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+{% include head.html %}
+{% seo %}
+<body id="myblog">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="/#">Ravshan S.K.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarNavDropdown" class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/blogru">Blog in Russian</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+        </ul>
+    </div>
+</nav>
+
+<div class="row col-md-12">
+    <div class="container content col-md-7 offset-1 py-5">
+      {{ content }}
+    </div>
+
+	<div class="col-md-4 blog-sidebar py-5">
+		<div class="recent">
+			<h3>Recent posts</h3>
+				<ul class="list-unstyled">
+					{% for post in site.posts limit:10 %}
+   	   					<li><a class="text-dark small" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:60}}</a></li>
+					{% endfor %}
+				</ul>
+		</div>
+	</div>
+</div>
+<footer class="footer mt-auto py-5 bg-dark text-light">
+	<div class="pb-4">
+			</a><h3 class="text-center">Contact me:</h3>
+	</div>
+	       <div class="text-center">
+        <a href="mailto:rsk@ravshansk.com" class="btn" target="_blank"><i class="fas fa-3x fa-envelope fa-inverse"></i></a>
+        <a href="http://twitter.com/ravshansk" class="btn" target="_blank"><i class="fab fa-3x fa-twitter fa-inverse"></i></a>
+        <a href="http://linkedin.com/in/ravshansk" class="btn" target="_blank"><i class="fab fa-3x fa-linkedin fa-inverse"></i></a>
+        <a href="http://facebook.com/ravshanskh" class="btn" target="_blank"><i class="fab fa-3x fa-facebook fa-inverse"></i></a>
+    </div>
+
+</footer>
+	{% include scripts.html %}
+    {% include gdpr.html %}
+
+</body>
+
+
+</html>
