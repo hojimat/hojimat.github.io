@@ -1,2 +1,2 @@
-# hojimatov
-My new personal website
+# hojimat
+My new personal website (moved from ravshansk.com)
