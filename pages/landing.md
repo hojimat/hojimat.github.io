@@ -72,6 +72,14 @@ permalink: /
         <h2 class="mb-5">Education</h2>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
+                <h3 class="mb-0">University of Klagenfurt</h3>
+                <div class="subheading mb-3">Ph.D. Economics</div>
+                <p>Thesis title: <i>Conformity in complex organizational environments: an agent-based approach.</i></p>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">2019 - 2024 (expected)</span></div>
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
                 <h3 class="mb-0">Bogazici University</h3>
                 <div class="subheading mb-3">M.A. Economics</div>
                 <p>Thesis title: <i>A welfare comparison of life-cycle investment strategies for Turkey</i></p>
@@ -82,6 +90,7 @@ permalink: /
             <div class="flex-grow-1">
                 <h3 class="mb-0">Bogazici University</h3>
                 <div class="subheading mb-3">B.A. International Trade</div>
+                <p>Specialized in mathematical economics.</i></p>
             </div>
             <div class="flex-shrink-0"><span class="text-primary">2011 - 2015</span></div>
         </div>
