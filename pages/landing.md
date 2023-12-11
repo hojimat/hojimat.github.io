@@ -90,7 +90,7 @@ permalink: /
             <div class="flex-grow-1">
                 <h3 class="mb-0">Bogazici University</h3>
                 <div class="subheading mb-3">B.A. International Trade</div>
-                <p>Specialized in mathematical economics.</i></p>
+                <p>Specialized in mathematical economics.</p>
             </div>
             <div class="flex-shrink-0"><span class="text-primary">2011 - 2015</span></div>
         </div>
