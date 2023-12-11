@@ -17,10 +17,10 @@ permalink: /
         </div>
         <p class="lead mb-5">My name is Ravshanbek Khodzhimatov and I am an economist. I am currently developing computer simulations of economies using agent-based approach. My research interests are complexity (agent interactions and emergent behavior), statistical learning, and numeric methods.</p>
         <div class="social-icons">
-            <a class="social-icon" href="https://linkedin.com/in/hojimatov" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a class="social-icon" href="https://github.com/ravshansk" target="_blank"><i class="fab fa-github"></i></a>
-            <a class="social-icon" href="https://twitter.com/ravshansk" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a class="social-icon" href="https://facebook.com/rhojimatov" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="social-icon" href="https://linkedin.com/in/hojimat" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a class="social-icon" href="https://github.com/hojimat" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="social-icon" href="https://twitter.com/hojimatx" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="social-icon" href="https://facebook.com/hojimatx" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a class="social-icon" href="https://t.me/dismalfriedman" target="_blank"><i class="fab fa-telegram"></i></a>
             <a class="social-icon" href="https://orcid.org/0000-0002-2761-2029" target="_blank"><i class="fab fa-orcid"></i></a>
         </div>
@@ -103,14 +103,45 @@ permalink: /
         <h2 class="mb-5">Skills</h2>
         <div class="subheading mb-3">Programming Languages & Tools</div>
         <ul class="list-inline dev-icons">
-            <li class="list-inline-item"><i class="fab fa-python"></i></li>
-            <li class="list-inline-item"><i class="fab fa-r-project"></i></li>
-            <li class="list-inline-item"><i class="fa-brands fa-golang"></i></li>
-            <li class="list-inline-item"><b>C++</b></li>
-            <li class="list-inline-item"><i class="fas fa-terminal"></i></li>
-            <li class="list-inline-item"><i class="fab fa-docker"></i></li>
-            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-            <li class="list-inline-item"><i class="fab fa-github"></i></li>
+            <li class="list-inline-item ml-3"><i class="fab fa-python"></i></li>
+            <li class="list-inline-item ml-3"><i class="fab fa-r-project"></i></li>
+            <li class="list-inline-item ml-3"><i class="fa-brands fa-golang"></i></li>
+            <li class="list-inline-item ml-3"><b>C++</b></li>
+            <li class="list-inline-item ml-3"><i class="fas fa-terminal"></i></li>
+            <li class="list-inline-item ml-3"><i class="fab fa-docker"></i></li>
+            <li class="list-inline-item ml-3"><i class="fab fa-html5"></i></li>
+            <li class="list-inline-item ml-3"><i class="fab fa-github"></i></li>
+        </ul>
+        <div class="subheading mb-3 mt-5">Languages</div>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            English
+            <span class="badge badge-primary badge-pill">fluent</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Russian
+            <span class="badge badge-primary badge-pill">native</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Turkish
+            <span class="badge badge-primary badge-pill">fluent</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            German
+            <span class="badge badge-primary badge-pill">B2</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Uzbek
+            <span class="badge badge-primary badge-pill">native</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Kyrgyz
+            <span class="badge badge-primary badge-pill">fluent</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Arabic
+            <span class="badge badge-primary badge-pill">A1</span>
+          </li>
         </ul>
 <!--
         <div class="subheading mb-3">Workflow</div>
