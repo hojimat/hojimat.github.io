@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: "Миллионный раз о приватности"
 lang: russian
 categ: blogru

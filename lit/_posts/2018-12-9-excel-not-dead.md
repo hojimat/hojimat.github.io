@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Excel - это "прошлый век"? 
 lang: russian
 categ: blogru

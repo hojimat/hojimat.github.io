@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Мысли о религии
 keywords: религия, кыргызстан, мечеть, шариат, ислам
 lang: russian

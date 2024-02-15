@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Терпимость
 lang: russian
 categ: blogru

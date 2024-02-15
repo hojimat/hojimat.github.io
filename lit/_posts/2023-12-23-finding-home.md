@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Как выбрать страну?
 lang: russian
 categ: blogru

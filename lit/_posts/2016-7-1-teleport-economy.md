@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Что произойдёт с экономикой, если изобретут телепорт?
 lang: russian
 categ: blogru

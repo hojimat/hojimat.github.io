@@ -1,11 +1,10 @@
 ---
-layout: post
-title: Мысли о религии (часть 2) 
+layout: readerpost
+title: Как получить австрийскую визу D из Кыргызстана
 lang: russian
 categ: blogru
 ---
 
-Первая часть [здесь](/blogru/thoughts-on-religion).
 ### Содержание
 <ul class="index">
 <li><a href="#intro">1. Введение</a></li>

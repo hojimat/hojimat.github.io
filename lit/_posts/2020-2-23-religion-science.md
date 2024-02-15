@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: О науке и религии 
 lang: russian
 categ: blogru

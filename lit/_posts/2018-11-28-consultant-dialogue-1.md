@@ -2,7 +2,7 @@
 layout: readerpost
 title: Типичный диалог с клиентом
 lang: russian
-categ: lit
+categ: blogru
 ---
 
 --- Ты консультант?  

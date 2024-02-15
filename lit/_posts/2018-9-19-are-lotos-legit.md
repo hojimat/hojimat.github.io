@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Можно ли реально выиграть автомобиль по акциям на пачках сигарет?
 lang: russian
 categ: blogru

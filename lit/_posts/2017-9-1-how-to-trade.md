@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Какими знаниями нужно обладать, чтобы торговать на бирже? 
 lang: russian
 categ: blogru

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Как научиться абсолютно всему?
 lang: russian 
 categ: blogru

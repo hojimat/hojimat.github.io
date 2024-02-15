@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Что случилось в фильме "Игра на понижение"?
 lang: russian
 categ: blogru

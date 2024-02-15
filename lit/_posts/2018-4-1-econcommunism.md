@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: readerpost 
 title: Почему среди экономистов мало коммунистов
 lang: russian 
 categ: blogru

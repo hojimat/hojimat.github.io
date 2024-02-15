@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Что особенного в золоте?
 lang: russian
 categ: blogru

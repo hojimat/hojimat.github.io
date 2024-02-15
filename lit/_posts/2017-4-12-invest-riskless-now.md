@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Как инвестировать без риска в 2017-м году
 lang: russian
 categ: blogru

@@ -3,7 +3,7 @@ layout: readerpost
 title: The Breakfast club. Наверстывая культуру.
 image: /assets/img/breakfast/breakfastclub.jpg
 lang: russian
-categ: lit
+categ: blogru
 ---
 
 <figure class="text-center">

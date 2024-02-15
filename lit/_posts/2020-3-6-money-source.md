@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Деньги. Origins.
 lang: russian
 categ: blogru

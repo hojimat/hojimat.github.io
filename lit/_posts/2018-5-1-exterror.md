@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: readerpost 
 title: Экстремизм и терроризм. 
 lang: russian 
 categ: blogru

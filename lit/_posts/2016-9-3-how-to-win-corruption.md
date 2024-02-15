@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: readerpost 
 title: Как победить коррупцию? 
 lang: russian 
 categ: blogru

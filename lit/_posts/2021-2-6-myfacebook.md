@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: readerpost
 title: Подборка постов с ФБ-1
 lang: russian
 categ: blogru
