@@ -30,8 +30,9 @@
             <div class="col-md-3">
               <div class="recent">
                 <h3>Recent posts</h3>
+                {% assign blog_posts = site.posts | where: "categ", "blog" %}
                 <ul class="list-unstyled">
-                  {% for post in site.posts limit:10 %}
+                  {% for post in blog_posts limit: 10 %}
                     <li><a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:60}}</a></li>
                   {% endfor %}
                 </ul>
