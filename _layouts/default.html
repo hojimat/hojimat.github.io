@@ -33,7 +33,7 @@
                 {% assign blog_posts = site.posts | where: "categ", "blog" %}
                 <ul class="list-unstyled">
                   {% for post in blog_posts limit: 10 %}
-                    <li><a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:60}}</a></li>
+                  <li class="py-2"><a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:60}}</a></li>
                   {% endfor %}
                 </ul>
               </div>
