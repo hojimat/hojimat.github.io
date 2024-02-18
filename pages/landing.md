@@ -7,7 +7,7 @@ permalink: /
 <!-- About-->
 <section class="resume-section" id="about">
     <div class="resume-section-content">
-        <h1 class="mb-0">
+        <h1 class="mb-1 text-capitalize">
             Ravshan
             <span class="text-primary">Hojimatov</span>
         </h1>
