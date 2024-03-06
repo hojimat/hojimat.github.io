@@ -1,16 +1,19 @@
----
-layout: cleanmode
----
+<!DOCTYPE html>
+<html>
 
-<div class="container content col-md-6 mx-auto py-5">
-  <div class="post-heading">
-      <h1>{{ page.title }}</h1>
-      <h2 class="subheading">{{ page.subtitle }}</h2>
-      <span class="meta">
-          Posted on {{ page.date | date_to_string }}
-      </span>
-  </div>
-  <article class="mb-4">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+  <link rel=""stylesheet" href="/assets/css/stacked.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html">
+    <h1>{{page.title}}</h1>
     {{ content }}
-  </article>
-</div>
+  </div>
+</body>
+
+</html>
