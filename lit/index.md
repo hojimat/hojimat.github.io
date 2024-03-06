@@ -2,6 +2,7 @@
 layout: readermode
 title: Черновики
 ---
+
 <div class="posts">
   {% for post in site.posts %}
 		{% if post.categ == 'blogru' and post.lang == 'russian' %}
