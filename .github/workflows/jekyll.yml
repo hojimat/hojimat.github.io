@@ -44,7 +44,7 @@ jobs:
           pwd
           ls -l
           bundle exec jekyll -v
-          bundle exec  sass -v
+          bundle exec  sass --version
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
