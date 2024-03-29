@@ -2,7 +2,7 @@
 layout: post
 title: This is how you should never end your blog posts
 lang: english 
-categ: blog
+categories: [ blog ]
 keywords: cta, blog, writing
 tags: management
 ---

@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Какими знаниями нужно обладать, чтобы торговать на бирже? 
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 
 ### Минимальные навыки - это следующее:

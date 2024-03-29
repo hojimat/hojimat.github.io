@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Excel - это "прошлый век"? 
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 
 ### Excel жив

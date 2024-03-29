@@ -1,8 +1,9 @@
 ---
-layout: readerpost 
+layout: post 
 title: Экстремизм и терроризм. 
 lang: russian 
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 **Дисклеймер: Это мои теоретические размышления.**
 

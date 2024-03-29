@@ -1,9 +1,10 @@
 ---
-layout: readerpost
+layout: post
 title: Мысли о религии
 keywords: религия, кыргызстан, мечеть, шариат, ислам
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 
 В этой статье я собрал мысли, которые мне приходили во время или после (чаще после) споров со знакомыми на тему религии.  

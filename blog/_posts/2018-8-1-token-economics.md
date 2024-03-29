@@ -2,12 +2,12 @@
 layout: post
 title: Utility tokens&#58; discussion, economic model and simulation in R
 lang: english
-categ: blog
+categories: [ blog ]
 description: economic model of utility tokens in R
 keywords: cryptocurrency, token, ethereum, proof-of-stake, hackernoon, economics, token economics, tokenomics
 tags: crypto economics
 redirect_from: /articles/token-economics
-image: /assets/img/token/tokenomy.png
+image: assets/img/token/tokenomy.png
 ---
 
 [_This post has been originally published in HackerNoon. Click here to read the original._](https://hackernoon.com/utility-tokens-discussion-economic-model-and-simulation-in-r-798c0ff3d26c)  

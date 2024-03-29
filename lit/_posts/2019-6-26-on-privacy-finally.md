@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: "Миллионный раз о приватности"
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 
 На днях смотрел интервью Юваля Ной Харрари Владимиру Познеру, где, ожидаемо, речь зашла о личных данных и приватности.

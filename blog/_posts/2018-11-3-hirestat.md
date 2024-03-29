@@ -2,11 +2,11 @@
 layout: post
 title: Why don't more economists get hired as data analysts?
 lang: english
-categ: blog
+categories: [ blog ]
 description: Data science, AI, Big Data and machine learning --- are the temporary buzzwords, while statistical analysis was, is, and will be the source of the best knowledge and breakthroughs related to data. 
 keywords: statistical consulting, economic consulting, data analytics, econometrics
 tags: management statistics
-image: /assets/img/hirestat/modernbook.JPG
+image: assets/img/hirestat/modernbook.JPG
 ---
 <figure class="">
 	<img class="img-fluid" src="/assets/img/hirestat/modernbook.JPG">

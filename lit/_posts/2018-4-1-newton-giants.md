@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Доверять или проверять? 
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 
 --- Ты слишком усложняешь себе жизнь.  

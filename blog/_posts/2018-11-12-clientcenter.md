@@ -2,11 +2,11 @@
 layout: post
 title: We can't live without clients
 lang: english
-categ: blog
+categories: [ blog ]
 description: .
 keywords: statistical consulting, economic consulting, data analytics, stata, r studio
 tags: management
-image: /assets/img/clientcenter/cosmos.jpg
+image: assets/img/clientcenter/cosmos.jpg
 published: false
 ---
 

@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Как получить австрийскую визу D из Кыргызстана
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 
 ### Содержание

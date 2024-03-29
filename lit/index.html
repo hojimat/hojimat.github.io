@@ -1,0 +1,16 @@
+---
+layout: default
+title: Черновики
+---
+
+<!-- Posts Index
+================================================== -->
+<div class="blog-grid-container">
+    {% for post in site.posts %}
+        {% if post.categories contains 'lit' %}
+            {% include postbox.html %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+

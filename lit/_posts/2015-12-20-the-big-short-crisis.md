@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Что случилось в фильме "Игра на понижение"?
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 
 Произошло следующее:

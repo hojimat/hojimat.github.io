@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Что даёт кыргызский паспорт?
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 published: false
 ---
 

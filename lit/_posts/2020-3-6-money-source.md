@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Деньги. Origins.
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 published: false
 ---
 

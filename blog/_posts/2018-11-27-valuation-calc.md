@@ -2,12 +2,12 @@
 layout: post
 title: Valuation Calculator for Subscription-Based Businesses
 lang: english
-categ: blog
+categories: [ blog ]
 description: R reimplementation of Daniel McCarthy and Peter Fader's valuation model
 keywords: peter fader, R, economics, management, stock, valuation, IPO, public data, subscription
 tags: economics management finance
 redirect_from: /articles/valuation-calc
-image: /assets/img/churn/diag2.png
+image: assets/img/churn/diag2.png
 ---
 
 Last summer I worked on a project that used Daniel McCarthy, Peter Fader and Bruce Hardie's valuation model, described in their paper "Valuing Subscription-Based Businesses Using Publicly Disclosed Customer Data" available at [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2701093#maincontent).

@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: О науке и религии 
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 published: false
 ---
 

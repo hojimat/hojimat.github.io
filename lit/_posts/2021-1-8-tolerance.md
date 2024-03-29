@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Терпимость
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 published: false
 ---
 

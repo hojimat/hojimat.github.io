@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Типичный диалог с клиентом
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 
 --- Ты консультант?  

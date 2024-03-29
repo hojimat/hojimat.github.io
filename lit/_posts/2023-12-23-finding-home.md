@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Как выбрать страну?
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 published: false
 ---
 

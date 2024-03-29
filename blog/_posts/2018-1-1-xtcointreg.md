@@ -2,7 +2,7 @@
 layout: post
 title: Introducing Panel FMOLS/DOLS command for Stata
 lang: english
-categ: blog
+categories: [ blog ]
 keywords: stata, cointreg, pedroni, panel data
 tags: economics
 redirect_from: /articles/xtcointreg

@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Как инвестировать без риска в 2017-м году
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 С минимальным риском можно:
 

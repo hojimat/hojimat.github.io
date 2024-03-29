@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Можно ли реально выиграть автомобиль по акциям на пачках сигарет?
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 Да, конечно, можно. Люди же выигрывают. 
 

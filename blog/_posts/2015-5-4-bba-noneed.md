@@ -2,7 +2,7 @@
 layout: post
 title: Undergraduate business degree is a waste of time
 lang: english
-categ: blog
+categories: [ blog ]
 keywords: statistical consulting, economic consulting, data analytics, econometrics
 tags: management
 ---

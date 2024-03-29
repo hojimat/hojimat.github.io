@@ -2,7 +2,7 @@
 layout: post
 title: Why is econometrics focused on linear models?
 lang: english
-categ: blog
+categories: [ blog ]
 keywords: statistical consulting, economic consulting, data analytics, econometrics
 tags: statistics
 ---

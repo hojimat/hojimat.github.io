@@ -1,9 +1,10 @@
 ---
-layout: readerpost
+layout: post
 title: The Breakfast club. Наверстывая культуру.
-image: /assets/img/breakfast/breakfastclub.jpg
+image: assets/img/breakfast/breakfastclub.jpg
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 
 <figure class="text-center">

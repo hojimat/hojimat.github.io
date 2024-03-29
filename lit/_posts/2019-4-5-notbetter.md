@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Наша честь?
 lang: russian
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 
 "Всё, уезжаю на родину. Там я буду, наконец-то, у себя дома. Буду строить карьеру там. Навсегда избавлюсь от снисходительного отношения окружающих!"

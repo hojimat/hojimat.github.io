@@ -2,11 +2,11 @@
 layout: post
 title: Simulations in economics
 lang: english
-categ: blog
+categories: [ blog ]
 description: This article talks about simulation as a research tool for the economists, how it allows for weaker assumptions, bounded rationality and high complexity.
 keywords: simulation, economics, agent-based modeling, abm 
 tags: economics
-image: /assets/img/simulation/thematrix.jpg
+image: assets/img/simulation/thematrix.jpg
 redirect_from: /articles/simulation
 ---
 

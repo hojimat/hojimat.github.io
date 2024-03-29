@@ -1,8 +1,9 @@
 ---
-layout: readerpost
+layout: post
 title: Как научиться абсолютно всему?
 lang: russian 
-categ: blogru
+categories: [ lit ]
+author: rsk
 keywords: самообучение, саморазвитие
 ---
 

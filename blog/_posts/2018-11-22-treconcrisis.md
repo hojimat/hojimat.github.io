@@ -2,7 +2,7 @@
 layout: post
 title: The future of economic publishing
 lang: english
-categ: blog
+categories: [ blog ]
 keywords: statistical consulting, economic consulting, data analytics, econometrics, economics, Turkey
 tags: economics finance
 ---

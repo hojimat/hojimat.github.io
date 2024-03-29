@@ -1,8 +1,9 @@
 ---
-layout: readerpost 
+layout: post 
 title: Почему среди экономистов мало коммунистов
 lang: russian 
-categ: blogru
+categories: [ lit ]
+author: rsk
 ---
 Потому что все экономические модели подразумевают обмен товарами, а для правильного обмена нужно различать ценность.  
 

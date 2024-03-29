@@ -2,12 +2,12 @@
 layout: post
 title: Factor Analysis and Uniform distributions
 lang: english
-categ: blog
+categories: [ blog ]
 description: Product of which distributions is uniform? What is square root of a uniform distribution? I have found a great approximation - Beta(1.2, 0.5) is very intuitive and almost perfect product decomposition of uniform distribution.
 keywords: uniform distribution, beta distribution, decomposition 
 tags: statistics
 redirect_from: /articles/uniform-distribution
-image: /assets/img/factoranalysis/beta21.png
+image: assets/img/factoranalysis/beta21.png
 ---
 
 [**To learn about product decomposition of uniform distribution click here or keep on reading**](#unifrand)

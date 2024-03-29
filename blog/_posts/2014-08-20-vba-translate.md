@@ -2,7 +2,7 @@
 layout: post
 title: Transform Excel into a translation tool using this VBA macro  
 lang: english
-categ: blog
+categories: [ blog ]
 keywords: visual basic, vba macros, macro, translation tool, translation tool in excel
 tags: [management]
 ---
