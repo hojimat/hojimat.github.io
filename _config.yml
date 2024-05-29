@@ -30,6 +30,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
+  - jekyll-spaceship
     
 # Archives
 jekyll-archives:
