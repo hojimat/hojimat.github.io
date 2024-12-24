@@ -191,10 +191,12 @@ Of course, the browser would not understand this --- you will need to *render* t
 ```
 
 This feature is so crucial that it even has a special name --- *templating*. I want to stress one thing: such `HTML` generation from a template happens in the server in a language of your choice (`Python/Ruby/Java/C#`), usually a language your backend code is written in. Browsers do not understand  these languages natively --- they only understand `JS`, so we send them a pre-rendered `HTML` file. This will become important later on. 
+
+
 ### JSON vs HTML API
 In the previous section we saw how backend can generate `HTML` scripts and fill them with the data from database and other information. For example, if the user presses the *Like* button on some social media post, the backend must update the content of *Liked Posts* page to include that new post there. This can be done in two ways:
 
-1. Backend has an `HTML` template ready with some `Jinja2` script and renders it with the latest query result from the database:
+**1)** Backend has an `HTML` template ready with some `Jinja2` script and renders it with the latest query result from the database:
 
 ```jinja2
 <table>{% raw %}
@@ -206,7 +208,7 @@ In the previous section we saw how backend can generate `HTML` scripts and fill 
 
 Here the rendered `HTML` is sent directly to the frontend together with the `CSS` styles and `JS` scripts. The browser simply displays what the backend has already prepared and is not aware of the types of data or any logic on the page.
 
-2. Backend sends the `JSON` that specifies the query result from database 's `liked_posts` table in a format that browser would understand:
+**2)** Backend sends the `JSON` that specifies the query result from database 's `liked_posts` table in a format that browser would understand:
 ```JSON
 {
 	liked_posts: [
@@ -242,6 +244,8 @@ Note that in `JSON API` architecture the browser knows a lot about the data it r
 This is really useful if you need a complex interactive user interface but this is slightly less secure because the browser is not in your hands --- it belongs to a user who can be malicious. 
 
 Moreover, if the user's computer is weak, running all these scripts in the browser will slow down the entire web app, unlike pre-rendered `HTML` which is a simple text file that will run smoothly in most computers.
+
+Also, the search engine crawlers do not usually wait for the web page to load all of its scripts, and if the page has zero content on it to begin with, the search engine optimization suffers as a result.
 
 There is a modern trend called *Server-side rendering (SSR)* that runs `Node.js` on the server and pre-renders some `HTML` pages using `JS` directly in the server. This kinda solves the problems above, but it also bites a slice of the backend's pie. If we try to visualize the three approaches, it would be something like this (assuming backend is in `Python`):
 
@@ -339,7 +343,7 @@ But in Bootstrap you do not write a single line of `JS` yourself, just put the n
 </div>
 ```
 
-Bootstrap was a revolution in frontend development. It super-powered the `HTML` by just adding classes to it, but it couldn't create custom `HTML` elements and had to rely on native `HTML` elements.
+Bootstrap was a revolution in frontend development, and many libraries followed its approach, like `PicoCSS` or `TailwindCSS`. It super-powered the `HTML` by just adding classes to it, but it couldn't create custom `HTML` elements and had to rely on native `HTML` elements.
 
 ```html
 <!-- This will work -->
@@ -450,7 +454,7 @@ Uses *templates* to add `JS` into `HTML`:
 
 ```html
 <div id="app">
-	<p>Hello, {{ name }}!</p>
+	<p>Hello, {% raw %}{{ name }}{% endraw %}!</p>
 </div>
 ```
 which is very intuitive.
