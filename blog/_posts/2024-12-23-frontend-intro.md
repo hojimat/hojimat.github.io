@@ -5,7 +5,7 @@ lang: english
 categories: [ blog ]
 description: A comprehensive guide to frontend frameworks and libraries. 
 tags: programming 
-image: assets/img/frontend/featured_pen.jpg
+image: https://hojimat.com/assets/img/frontend/featured_pen.jpg
 ---
 
 <ul>
