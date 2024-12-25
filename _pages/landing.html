@@ -14,10 +14,6 @@ permalink: /
 	<!-- Favicon -->
 	<link href="{{ site.baseurl }}/assets/images/favicon.ico" rel="shortcut icon" />
 
-	{% if jekyll.environment == 'production' %}
-	{% include analytics.html %}
-	{% endif %}
-
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
 
@@ -35,6 +31,10 @@ permalink: /
 	<![endif]-->
 
 </head>
+
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
 
 <body>
 	<!-- Page Preloder -->
