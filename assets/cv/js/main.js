@@ -44,9 +44,8 @@ $(window).on('load', function() {
 	$('.progress-bar-style').each(function() {
 		var progress = $(this).data("progress");
 		var prog_width = progress + '%';
-		var years = $(this).attr("years")
 		if (progress <= 100) {
-			$(this).append('<div class="bar-inner" style="width:' + prog_width + '"><span>' + years + '</span></div>');
+			$(this).append('<div class="bar-inner" style="width:' + prog_width + '"><span>' + prog_width + '</span></div>');
 		}
 		else {
 			$(this).append('<div class="bar-inner" style="width:100%"><span>' + prog_width + '</span></div>');
