@@ -15,7 +15,7 @@ permalink: /
 	<link href="{{ site.baseurl }}/assets/images/favicon.ico" rel="shortcut icon" />
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Open+Sans:400,600,700|Fira+Sans+Condensed:400,600,700&display=swap" rel="stylesheet">
 
 	<!-- Font Awesome -->
 	<script src="https://use.fontawesome.com/releases/v6.5.1/js/all.js" crossorigin="anonymous"></script>
@@ -26,110 +26,41 @@ permalink: /
 
 </head>
 
-{% if jekyll.environment == 'production' %}
-{% include analytics.html %}
-{% endif %}
-
-
 <body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
-
-	<!-- Header section start -->
-	<header class="header-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="site-logo">
-						<h2><a href="#">R. Hojimatov</a></h2>
-						<p>Economics | Complex Systems</p>
-					</div>
-				</div>
-				<div class="col-md-8 text-md-right header-buttons">
-					<a href="{{ site.baseurl }}/assets/cv/academic_cv.pdf" class="site-btn">Download CV</a>
-					<a href="{{ site.baseurl }}/blog" class="site-btn">Blog</a>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- Header section end -->
-
-	<!-- Hero section start -->
-	<section class="hero-section spad">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-10 offset-xl-1">
-					<div class="row">
-						<div class="col-lg-6">
-							<div class="hero-text">
-								<h2>_</h2>
-								<p>I am an economist fascinated by complex systems and emergence.</p>
-							</div>
-							<div class="hero-info">
-								<h2>About me</h2>
-								<p>
-									My full name is Ravshanbek Khodzhimatov. I recently defended my PhD in Economics at the
-									University of Klagenfurt in Austria, where I used agent-based modeling to understand
-									the
-									coordination and diffusion of knowledge in organizations. My current research interests are
-									large-scale computer simulations of social phenomena and, since recently, the economic transformations and multiple equilibria in maroeconomics.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<figure class="hero-image">
-								<img src="{{ site.baseurl }}/assets/images/hero.jpg" alt="5">
-							</figure>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Hero section end -->
-
-	<!-- Social links section start -->
-	<div class="social-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-10 offset-xl-1">
-					<div class="social-link-warp">
-						<div class="social-links">
-							<a href="mailto:ravshan.personal@gmail.com" target="_blank"><i
-									class="fa fa-envelope"></i></a>
-							<a href="https://linkedin.com/in/hojimat" target="_blank"><i
-									class="fa-brands fa-linkedin"></i></a>
-							<a href="https://x.com/hojimatx" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-							<a href="https://github.com/hojimat" target="_blank"><i class="fa-brands fa-github"></i></a>
-							<a href="https://t.me/hojimatx" target="_blank"><i class="fa-brands fa-telegram"></i></a>
-						</div>
-						<h2 class="hidden-md hidden-sm">Contact me</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Social links section end -->
-
-	<!-- Footer section start -->
-	<footer class="footer-section">
-		<div class="container text-center">
-			<div class="copyright">
-				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			</div>
-		</div>
-	</footer>
-	<!-- Footer section end -->
+    <div class="hero-wrapper">
+        <div class="container">
+            <div class="row hero">
+                <div class="col-lg-8">
+                    <h1>Ravshan Hojimatov</h1>
+                    <p>My legal name is Ravshanbek Khodzhimatov.</p>
+                    <p>I completed my PhD in Economics from <a href="https://www.aau.at/en/doctoral-programme/thematic-doctoral-programmes/modeling-simulation-and-optimization-in-business-and-economics-msobe/" target="_blank">University of Klagenfurt</a>.</p>
+                    <p><a href="{{ site.baseurl }}/research">My research</a> applies computational methods and agent-based modeling to economic questions.</p>
+                    <p>My doctoral work examined conformity and agent interactions in organizations.</p>
+                    <p>My research interests are <span class="highlight">Economic Dynamics</span> and <span class="highlight">Macroeconomics</span>, with a focus on structural change and multiple equilibria. 
+                    <p>Click <a href="{{ site.baseurl }}/assets/cv/academic_cv.pdf" target="_blank">here</a> for my CV and <a href="{{ site.baseurl }}/research">here</a> to learn more about my research.</p>
+                    <p class="job-market">I am looking for postdoc and tenure track opportunities.</p>
+                </div>
+            <div class="col-lg-4">
+                <img src="{{ site.baseurl }}/assets/images/hero.jpg" alt="Profile photo" class="profile-image">
+                <div class="social-links">
+                    <a href="mailto:ravshan.academic@gmail.com" target="_blank"><i
+                            class="fa fa-envelope fa-2x"></i></a>
+                    <a href="https://linkedin.com/in/hojimat" target="_blank"><i
+                            class="fa-brands fa-linkedin fa-2x"></i></a>
+                    <a href="https://x.com/hojimatx" target="_blank"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                    <a href="https://github.com/hojimat" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+                    <a href="https://scholar.google.com/citations?user=m0rpGXkAAAAJ" target="_blank"><i
+                            class="fa-brands fa-google-scholar fa-2x"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
 
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="{{ site.baseurl }}/assets/cv/js/jquery-2.1.4.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/cv/js/bootstrap.min.js"></script>
-	<script src="{{ site.baseurl }}/assets/cv/js/circle-progress.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/cv/js/main.js"></script>
 </body>
 
