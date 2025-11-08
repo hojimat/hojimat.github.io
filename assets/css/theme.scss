@@ -15,6 +15,13 @@ $enable-rounded: false;
 $link-decoration: none;
 $link-hover-decoration: underline;
 
+// Accordion colors
+$accordion-bg:                  transparent;
+$accordion-button-bg:           #fff;
+$accordion-button-active-bg:    #fff;
+$accordion-button-active-color: $dark;
+$accordion-button-focus-box-shadow: transparent;
+
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
@@ -292,6 +299,9 @@ img, img:hover {
         float:right;
         margin-top: 10px;
     }
+    .post-url {
+        margin-top: 10px;
+    }
     .img-thumb {
         object-fit:cover;
         height:240px;
@@ -558,41 +568,8 @@ img, img:hover {
         transition:opacity 0.5s linear;
     }
 }
-.wrap-search {
-    position: fixed;
-    left: 30px;
-    bottom: 25px;
-    z-index: 1026;
-}
 .modal-open .modal {
     background: rgba(0,0,0,0.3);
-}
-.lunrsearchresult {
-    .title {
-        color:#000;
-        font-weight:700;
-        line-height:1.2;
-        display:block;
-        font-size:20px;
-        margin-bottom:5px;
-        &:hover {
-            color: color.adjust($primary,$lightness: -20%, $space: hsl);
-        }
-    }
-    span.body {
-        color: $gray-500;
-        line-height:1.7;
-        display:block;
-        margin-bottom:10px;
-    }
-    a {
-        &:hover {
-            text-decoration:none;
-        }
-    }
-    span.url {
-         display:none;
-    }
 }
 body.active-side {
     .bd-search {
@@ -669,7 +646,7 @@ body.active-side {
 }
 
 @media (max-width: 600px) {
-    .nav-icon, .sidebar, .share, .wrap-search {
+    .nav-icon, .sidebar, .share, {
         position:relative;
     }
     .container {
@@ -682,12 +659,6 @@ body.active-side {
         visibility: visible;
         opacity: 1;
         transition: opacity 0.5s linear;
-    }
-    .wrap-search {
-        right: 25px;
-        display: flex;
-        left: unset;
-        z-index:0;
     }
     .share {
         display: flex;
@@ -724,13 +695,5 @@ body.active-side {
     }
     .article-post {
         font-size:15px;
-    }
-    .wrap-search {
-        .fa-search {
-            display:none;
-        }
-        .form-control {
-            height:35px;
-        }
     }
 }
