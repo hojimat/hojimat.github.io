@@ -6,10 +6,9 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 url: 'https://hojimat.com'
 baseurl: ''
-google_analytics: 'G-8P6DD6NHXW'
 include: ["_pages"]
 permalink: /:title/
-email: wowthemesnet@gmail.com
+email: ravshan.academic@gmail.com
 
 # Authors
 authors:
@@ -17,7 +16,7 @@ authors:
     name: Ravshan
     display_name: Ravshan
     avatar: 'assets/images/avatar.jpg'
-    email: ravshan.personal@gmail.com
+    email: ravshan.academic@gmail.com
     twitter: https://twitter.com/hojimatx
     description: "Economist modeling social phenomena as complex systems."
 
@@ -61,20 +60,15 @@ kramdown:
 
 
 
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
-
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
 
 # Post Author Box ("enabled" or "disabled")
 authorbox: "enabled"
+#
 
-# Sass
 sass:
-  sass_dir: _sass
-  style: compressed
+  load_paths:
+    - _sass
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

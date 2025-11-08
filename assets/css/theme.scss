@@ -2,6 +2,8 @@
 
 ---
 
+@use "sass:color";
+
 $brown: #B59F62;
 $teal: #40FFDC;
 $black: #111;
@@ -9,11 +11,14 @@ $primary: $teal;
 $dark:    $black;
 $enable-rounded: false;
 
+// Link style overrides
+$link-decoration: none;
+$link-hover-decoration: underline;
+
 @import "bootstrap/functions";
-@import 'bootstrap/variables';
+@import "bootstrap/variables";
 @import "bootstrap/mixins";
-@import 'bootstrap/bootstrap';
-@import 'stars';
+@import "bootstrap";
 
 // general
 body, input, button, select, optgroup, textarea {   
@@ -24,7 +29,7 @@ body {
     background: #f4f4f4;
 }
 a {
-    color: darken($primary, 24%);
+    color: color.adjust($primary, $lightness: -24%, $space: hsl);
 }
 img {
     max-width:100%;
@@ -423,7 +428,7 @@ img, img:hover {
         width:50px;
         border-radius:50%;
         margin-right:10px;
-        border:2px solid darken($primary,20%);
+        border:2px solid color.adjust($primary,$lightness: -20%, $space: hsl);
         padding:2px;
     }
 }
@@ -436,7 +441,7 @@ img, img:hover {
     .author-thumb {
         width:70px;
         border-radius:50%;
-        border:2px solid darken($primary,20%);
+        border:2px solid color.adjust($primary,$lightness: -20%, $space: hsl);
         padding:2px;
     }
 }
@@ -540,7 +545,7 @@ img, img:hover {
 .show-search {
     cursor:pointer;
     &:hover {
-        color: darken($primary,20%);
+        color: color.adjust($primary,$lightness: -20%, $space: hsl);
     }
 }
 .bd-search {
@@ -571,7 +576,7 @@ img, img:hover {
         font-size:20px;
         margin-bottom:5px;
         &:hover {
-            color: darken($primary,20%);
+            color: color.adjust($primary,$lightness: -20%, $space: hsl);
         }
     }
     span.body {

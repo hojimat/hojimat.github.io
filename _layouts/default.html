@@ -17,10 +17,6 @@
 
 </head>
 
-{% if jekyll.environment == 'production' %}
-{% include analytics.html %}
-{% endif %}
-
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 
 <body>
@@ -43,14 +39,12 @@
     <nav id="menu">
         <ul>
             <h3>Navigation</h3>
+            <li><a href="{{ site.baseurl }}/">About me</a></li>
+            <li><a href="{{ site.baseurl }}/research">Research</a></li>
             <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
             <li><a href="{{ site.baseurl }}/lit">Blog in Russian</a></li>
-            <li><a href="{{ site.baseurl }}/">About me</a></li>
-            <li><a href="{{ site.baseurl }}/assets/cv/resume.pdf" target="_blank">Resume</a></li>
         </ul>
     </nav>
-
-    {% include search-lunr.html %}
 
 
     <!-- End Sidebar Navigation
@@ -65,7 +59,7 @@
 
             <div class="site-logo">
                 <h2>R. Hojimatov</h2>
-                <p>Economics | Complex Systems | Urban Science</p>
+                <p>Economics | Complex Systems</p>
             </div>
 
 
@@ -84,21 +78,6 @@
                 {{ content }}
             </div>
 
-            <!-- Newsletter
-    ================================================== 
-    {% if site.mailchimp-list %}
-    <div class="newsletter text-center">
-        <span class="h4"><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
-        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
-            <div class="mc-field-group d-inline-flex">
-            <input type="email" placeholder="Your e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
-            <input type="submit" value="Subscribe" name="subscribe" class="heart">
-            </div>
-        </form>
-    </div>
-    {% endif %}
-    -->
-
         </div>
 
         <!-- Begin Footer
@@ -112,16 +91,11 @@
                 </div>
             </div>
         </footer>
-        <!-- End Footer
-================================================== -->
 
     </div> <!-- /.site-content -->
 
-    <!-- Scripts (if you need bootstrap.js, please add it yourself. I didn't use it for performance reasons, it was not needed in this theme)
-================================================== -->
-
+    <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/prism.js"></script>
-
     <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
 
     {% if site.lazyimages == "enabled" %}
